@@ -1,0 +1,101 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+	
+	<view name="system">
+	
+		<text name="systemName" extra="true">
+			<text>Magnavox Odyssey 2</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.116</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>				
+		
+		<text name="systemYear" extra="true">
+			<text>Magnavox, Philips, 1978</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>						
+		
+		<text name="systemtxt" extra="true">
+			<text>The Magnavox Odyssey 2, also known as Philips Odyssey 2, is a second generation home video game console that was released in 1978. The Odyssey 2 was one of the four major home consoles prior to the 1983 video game market crash, along with Atari 2600, Intellivision and ColecoVision. In the early 1970s, Magnavox pioneered the home video game industry by successfully bringing the first home console to market, the Odyssey, which was quickly followed by a number of later models. In 1978, Magnavox, now a subsidiary of North American Philips, decided to release an all-new successor, Odyssey 2.</text>
+			<pos>0.03 0.39</pos>
+			<size>0.42 0.3</size>			
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>0.89</lineSpacing>
+			<alignment>left</alignment>
+		</text>		
+		
+	</view>			
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${odyss2Color}</color>
+			<colorEnd>${odyss2ColorB}</colorEnd>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./../_inc/images/syscolorbar.png</path>
+			<color>${odyss2Color}</color>
+			<colorEnd>${odyss2ColorB}</colorEnd>
+			<pos>0.32 0.04</pos>
+		</image>		
+
+	</view>
+
+	<view name="grid">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${odyss2Color}</color>
+			<colorEnd>${odyss2ColorB}</colorEnd>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+		
+	</view>
+
+	<view name="basic">
+	
+		<image name="basicgamelistbg" extra="true">
+			<color>${odyss2Color}</color>
+			<colorEnd>${odyss2ColorB}</colorEnd>
+		</image>		
+		
+	</view>
+
+
+</theme>

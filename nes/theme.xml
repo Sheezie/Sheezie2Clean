@@ -1,0 +1,106 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+	
+	
+	<view name="system">
+	
+		<text name="systemName" extra="true">
+			<text>Nintendo Entertainment System</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.083</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>				
+		
+		<text name="systemYear" extra="true">
+			<text>Nintendo, 1985</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>						
+		
+		<text name="systemtxt" extra="true">
+			<text>The Nintendo Entertainment System (NES) is the first video game console made by Nintendo in Japan, Europe, the United States. It came out in 1985 in the United States and was very popular. The controller for the e joysticks that older consoles had. It had a D-pad button, that could go up, down, left, or right. It also had A, B, Select, and Start buttons. The NES could use up to two controllers for multiplayer games. There were also other types of controllers that could be used with the NES. Nintendo discontinued (stopped making and selling) the NES in 1995.</text>
+			<pos>0.03 0.39</pos>
+			<size>0.42 0.3</size>			
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>0.89</lineSpacing>
+			<alignment>left</alignment>
+		</text>		
+		
+	</view>			
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${nesColor}</color>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./../_inc/images/syscolorbar.png</path>
+			<color>${nesColor}</color>
+			<pos>0.32 0.04</pos>
+		</image>		
+
+	</view>
+
+	<view name="grid">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${nesColor}</color>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<text name="md_name">
+			<color>ffffff</color>
+		</text>				
+		
+		<text name="md_description">
+			<color>ffffff</color>
+		</text>				
+		
+	</view>
+
+	<view name="basic">
+	
+		<image name="basicgamelistbg" extra="true">
+			<color>${nesColor}</color>
+		</image>		
+		
+	</view>
+
+
+</theme>
