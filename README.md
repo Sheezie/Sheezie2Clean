@@ -32,3 +32,6 @@ English is the only language supported
 <br>
 ![7 collections n menus](https://user-images.githubusercontent.com/116600451/197633171-730784cc-b7b3-4ef4-8b4b-9222854391e0.jpg) <br>
 <br>
+
+
+<h1>THIS THEME IS NOT AUTHORIZED FOR COMMERCIAL USE.</h1>
