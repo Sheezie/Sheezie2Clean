@@ -1,0 +1,36 @@
+<theme>
+
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+		<splash name="splash">
+			<backgroundColor>000000</backgroundColor>
+		</splash>
+		
+		<image name="background">
+	    	<path>./_inc/images/splash.jpg</path>
+		</image>
+				
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.103 0.65</pos>
+			<size>0.985 0.1</size>
+			<color>19806E</color>
+		</image>
+
+		<text name="label">
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<color>000000</color>
+			<fontSize>0.024</fontSize>
+		</text>
+		
+		<image name="progressbar:active">
+			<color>19806E</color>
+			<pos>-0.005 -0.35</pos>
+			<size>0.955 0.1</size>
+		</image>
+		
+	</view>	
+	
+</theme>

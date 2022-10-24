@@ -1,0 +1,189 @@
+<theme>
+
+  <formatVersion>7</formatVersion>
+  
+	<view name="system, basic, detailed, grid">
+	
+		<image name="background_color" extra="true">
+			<path>./_inc/images/blackbg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>0</zIndex>
+		</image>
+					
+	</view>
+	
+	<view name="system">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo4.png</path>
+		</image>
+		
+		<image name="logo2">
+			<path>./${system.theme}/logo2.png</path>
+		</image>			
+				
+		<text name="systemtxt" extra="true">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="systemYear" extra="true">
+			<color>ffffff</color>
+		</text>	
+		
+		<text name="systemName" extra="true">
+			<color>ffffff</color>
+		</text>
+		
+			<image name="systemInfo_background" extra="true">
+				<path>./_inc/images/whitebg.jpg</path>
+				<origin>0 0</origin>
+				<pos>0 0.731</pos>
+				<size>0.15 0.050</size>
+			</image>			
+
+			<text name="systemInfo" extra="true">
+				<pos>0.03 0.731</pos>
+				<size>0.25 0.050</size>
+				<backgroundColor>00000000</backgroundColor>
+				<color>000000</color>
+				<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<alignment>left</alignment>
+			</text>		
+		
+		
+	</view>		
+	
+	<view name="basic">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo3.png</path>
+			<pos>0.5 0.05</pos>
+			<maxSize>0.9 0.0425</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>		
+		
+		<textlist name="gamelist">
+			<selectorColor>000000</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<pos>0.5 0.53</pos>
+			<origin>0.5 0.5</origin>
+			<size>1 0.84</size>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+			<horizontalMargin>0.015</horizontalMargin>
+		</textlist>		
+		
+		<image name="basicgamelisttopbar" extra="true">
+			<path>./_inc/images/blackbg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 0.1</size>
+		</image>			
+		
+	</view>		
+	
+	
+	<view name="detailed">
+	
+		<image name="logo">
+			<visible>false</visible>
+		</image>
+				
+		<image name="logo3_white" extra="true">
+			<path>./${system.theme}/logo3.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>			
+
+		<textlist name="gamelist">
+			<selectorColor>000000</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>000000</primaryColor>
+		</textlist>
+				
+		<image name="gamelistbg2" extra="true">
+			<path>./_inc/images/blackbg.jpg</path>
+		</image>		
+				
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>ffffff</color>
+		</text>
+		
+		<rating name="md_rating">
+			<color>ffffff</color>
+		</rating>		
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>ffffff</color>
+		</datetime>	
+		
+		<text name="md_name">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_description">
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<color>ffffff</color>
+		</text>		
+		
+		<text name="imageSC_bgtextasterisk" extra="true">
+			<color>ffffff</color>
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+		</text>				
+						
+	</view>	
+	
+	
+	<view name="grid">
+	
+		<image name="logo">
+			<visible>false</visible>
+		</image>
+				
+		<image name="logo3_white" extra="true">
+			<path>./${system.theme}/logo3.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>			
+		
+		<image name="gridgamelistbg2" extra="true">	
+			<color>000000</color>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<color>000000</color>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>000000</color>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>000000</color>
+		</datetime>		
+		
+		<rating name="md_rating">
+			<color>000000</color>
+		</rating>			
+		
+		<text name="md_name">
+			<color>000000</color>
+		</text>
+		
+		<text name="md_description">
+			<color>000000</color>
+		</text>		
+		
+	</view>
+	
+</theme>

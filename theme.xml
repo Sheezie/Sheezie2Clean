@@ -1,0 +1,775 @@
+<!--
+theme name:     Sheezie 2 Clean
+version:        1.1
+author:         Sheezie (newFUNKYmode)
+email:          
+website:        
+license:        creative commons CC-BY-NC-SA
+based on:       "Carbon" by Eric Hettervik, "BaseVid" by Matt Kennedy, "ARTFLIX" by Alekfull, "Retrofix" by 20goto10
+
+Most logos created by Dan Patrick and can be found here: https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions
+
+--------------------------------------------------------NOTES--------------------------------------------------------
+
+This is my first time doing anything like this so some code may be redundant!
+
+The following "Automatic Game Collections" and "Grouped Systems" have artwork and can be enabled:
+Grouped Systems: AMIGA, MEGA DRIVE, MSX, PORTS
+Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER PLAYED, RETROACHIEVEMENTS
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+	
+	<variables>
+	
+<!--Custom System Colors-->	
+
+		<a3d0Color>0000a0</a3d0Color>
+		<adamColor>004cc6</adamColor>
+		<advisionColor>293789</advisionColor>
+		<amiga500Color>eb2c22</amiga500Color>
+		<amiga1200Color>002684</amiga1200Color>
+		<amigacd32Color>ff001f</amigacd32Color>
+		<amstradColor>28b872</amstradColor>
+		<apfmColor>175067</apfmColor>
+		<apple2Color>943f95</apple2Color>
+		<atari2600Color>e4202f</atari2600Color>
+		<atari5200Color>6187e5</atari5200Color>
+		<atari7800Color>f17a4f</atari7800Color>
+		<c64Color>002684</c64Color>
+		<c128Color>f20029</c128Color>
+		<caveColor>4f9d6b</caveColor>
+		<cdiColor>e50300</cdiColor>
+		<coleColor>489e6e</coleColor>
+		<coleColorB>c8b628</coleColorB>
+		<dosColor>9b2685</dosColor>
+		<fdsColor>ffc600</fdsColor>		
+		<gamewatchColor>3e3e3e</gamewatchColor>
+		<gbColor>b1aeab</gbColor>
+		<gbaColor>574087</gbaColor>
+		<gbcColor>3e408b</gbcColor>
+		<intvisionColor>0035a0</intvisionColor>
+		<jagColor>ffd100</jagColor>
+		<lynxColor>ffcc00</lynxColor>
+		<msx1Color>ff0000</msx1Color>
+		<msx2Color>121212</msx2Color>
+		<nesColor>cc2c2c</nesColor>
+		<megadriveColor>1f2a60</megadriveColor>
+		<mugenColor>004c7d</mugenColor>
+		<mugenColorB>4aa7e2</mugenColorB>
+		<n64Color>0017aa</n64Color>
+		<naomiColor>f05100</naomiColor>
+		<odyss2Color>fe0000</odyss2Color>
+		<odyss2ColorB>feaf00</odyss2ColorB>
+		<snesColor>4b287f</snesColor>
+		<ndsColor>929497</ndsColor>
+		<n3dsColor>d12228</n3dsColor>
+		<pcengineColor>ff6427</pcengineColor>
+		<dcColor>f6551f</dcColor>
+		<gamecubeColor>5b6297</gamecubeColor>
+		<gamecubeColorB>8b94c2</gamecubeColorB>
+		<gamegearColor>00cc9a</gamegearColor>
+		<mameColor>012b56</mameColor>
+		<mameColorB>5db9ea</mameColorB>
+		<mastersystemColor>0061a8</mastersystemColor>
+		<neogeoColor>828056</neogeoColor>
+		<openborColor>fe1201</openborColor>
+		<openborColorB>00a7e4</openborColorB>
+		<ps2Color>2b4b96</ps2Color>
+		<ps2ColorB>02b1cf</ps2ColorB>
+		<ps3Color>080808</ps3Color>
+		<ps3ColorB>464646</ps3ColorB>
+		<psxColor>e9bb20</psxColor>
+		<wiiColor>a19fa3</wiiColor>
+		<wiiuColor>17b3e8</wiiuColor>
+		<wswancColor>cf0017</wswancColor>		
+		<xboxColor>428f13</xboxColor>
+		<xboxColorB>abd306</xboxColorB>
+		<scummColor>b4ed5d</scummColor>
+		<scummColorB>66a200</scummColorB>
+		<sega32xColor>ab0000</sega32xColor>
+		<segacdColor>30a4ee</segacdColor>
+		<saturnColor>001c94</saturnColor>
+		<saturnColorB>79b3ff</saturnColorB>
+		<windowsColor>0079d7</windowsColor>
+		<zxspectrumColor>00a7e1</zxspectrumColor>
+		
+<!--Theme Config-->			
+
+		<subset.darkmode>Dark Mode</subset.darkmode>
+
+	</variables>
+	
+	<view name="system, basic, detailed, grid">
+	
+		<image name="background_color" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>0</zIndex>
+		</image>
+		
+		<image name="background_help" extra="true">
+			<path>./_inc/images/blackbg.jpg</path>
+			<pos>0 0.954</pos>
+			<size>1 0.47</size>
+			<zIndex>55</zIndex>
+		</image>
+		
+			<helpsystem name="help">
+				<pos>0.020 0.968</pos>
+				<textColor>FFFFFF</textColor>
+				<iconColor>FFFFFF</iconColor>
+				<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+				<fontSize>0.02</fontSize>
+			</helpsystem>			
+			
+	</view>
+	
+	<view name="screen"> 
+	
+		<controllerActivity name="controllerActivity" extra="true">
+			<imagePath>./_inc/icons/Controllers.png</imagePath>
+			<pos>0.773 0.9615</pos>
+			<size>0.027</size>
+			<itemSpacing>0.003</itemSpacing>
+			<color>FFFFFF90</color>
+			<activityColor>FFFFFF</activityColor>
+			<hotkeyColor>19806E</hotkeyColor>
+			<zIndex>56</zIndex>
+		</controllerActivity> 
+
+		<text name="clock">
+			<color>FFFFFF</color>
+			<fontSize>0.025</fontSize>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<pos>0.9 0.948</pos>
+			<size>0.09 0.058</size>
+			<alignment>right</alignment>
+		</text>	
+		
+		<!-- forces UI icons off screen by default -->
+		<batteryIndicator name="batteryIndicator">
+			<pos>0.89 0.959</pos>
+			<color>FFFFFF</color>
+		</batteryIndicator>
+	
+	</view>
+	
+	<view name="system">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo.png</path>
+		</image>
+		
+		<image name="logo2">
+			<path>./${system.theme}/logo2.png</path>
+		</image>			
+		
+		<image name="background" extra="true">
+			<path>./${system.theme}/bg.png</path>
+			<zIndex>2</zIndex>
+		</image>		
+		
+		<text name="systemtxt" extra="true">
+			<origin>0 0</origin>
+		</text>
+		
+		<text name="systemYear" extra="true">
+			<verticalAlignment>top</verticalAlignment>
+		</text>	
+		
+	</view>	
+	
+	<view name="menu">
+	
+		<menuText name="menutitle">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>FFFFFF</color>
+		</menuText>
+		
+		<menuText name="menufooter">
+			<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>FFFFFF</color>
+		</menuText>
+		
+		<menuText name="menutext">
+			<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+			<fontSize>0.029</fontSize>
+			<color>FFFFFF</color>
+			<separatorColor>FFFFFF</separatorColor>
+			<selectorColor>373737BB</selectorColor>
+			<selectorColorEnd>000000BB</selectorColorEnd>
+			<selectedColor>FFFFFF</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+	
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.017</fontSize>
+			<color>FFFFFF</color>
+		</menuTextSmall>
+	
+		<menuBackground name="menubg">
+			<color>000000</color>
+			<cornerSize>32 32</cornerSize>
+			<path>./_inc/frame.png</path>
+		</menuBackground>
+		
+		<menuSwitch name="menuswitch">
+			<pathOn>./_inc/images/on.png</pathOn>
+			<pathOff>./_inc/images/off.png</pathOff>
+		</menuSwitch>
+	
+		<menuIcons name="menuicons">
+			<iconKodi>./_inc/icons/Kodi.png</iconKodi>
+			<iconSystem>./_inc/icons/System.png</iconSystem>
+			<iconUpdates>./_inc/icons/Updates.png</iconUpdates>
+			<iconGames>./_inc/icons/Games.png</iconGames>
+			<iconControllers>./_inc/icons/Controllers.png</iconControllers>
+			<iconUI>./_inc/icons/UI.png</iconUI>
+			<iconSound>./_inc/icons/Sound.png</iconSound>
+			<iconNetwork>./_inc/icons/Network.png</iconNetwork>
+			<iconScraper>./_inc/icons/Scraper.png</iconScraper>
+			<iconAdvanced>./_inc/icons/Advanced.png</iconAdvanced>
+			<iconQuit>./_inc/icons/Quit.png</iconQuit>
+			<iconRestart>./_inc/icons/Restart.png</iconRestart>
+			<iconShutdown>./_inc/icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_inc/icons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
+			<iconEmuelec>./_inc/icons/Emuelec.png</iconEmuelec>
+		</menuIcons>
+	
+		<menuTextEdit name="menutextedit">
+			<inactive>./_inc/textinput_ninepatch.png</inactive>
+			<active>./_inc/textinput_ninepatch_active.png</active>
+		</menuTextEdit>
+
+		<helpsystem name="help">
+			<pos>0.020 0.968</pos>
+			<textColor>FFFFFF</textColor>
+			<iconColor>FFFFFF</iconColor>
+			<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			</helpsystem>
+	
+	</view>
+	
+	<view name="basic">
+	
+		<image name="logo">
+			<path>./${system.theme}/logo2.png</path>
+			<pos>0.5 0.05</pos>
+			<maxSize>0.9 0.0425</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>		
+		
+		<image name="basicgamelistbg" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>		
+		
+	</view>	
+	
+	<feature supported="carousel">
+
+		<view name="system">
+
+			<!-- Custom Horizontal System View -->
+			<carousel name="systemcarousel">
+				<type>horizontal</type>
+				<pos>0.01 0.815</pos>
+				<size>0.525 0.12</size>
+				<color>FFFFFF00</color>
+				<logoScale>1.35</logoScale>
+				<logoSize>0.08 0.08</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<systemInfoDelay>200</systemInfoDelay>
+			</carousel>
+						
+			<image name="systemInfo_background" extra="true">
+				<path>./_inc/images/blackbg.jpg</path>
+				<origin>0 0</origin>
+				<pos>0 0.731</pos>
+				<size>0.15 0.050</size>
+			</image>			
+
+			<text name="systemInfo" extra="true">
+				<pos>0.03 0.731</pos>
+				<size>0.25 0.050</size>
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+				<fontSize>0.03</fontSize>
+				<alignment>left</alignment>
+			</text>
+			
+		</view>
+
+	</feature>
+
+	<view name="detailed">
+	
+		<textlist name="gamelist">
+			<selectorColor>FFFFFF</selectorColor>
+			<selectedColor>000000</selectedColor>
+			<primaryColor>FFFFFF</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<pos>0.545 0.1</pos>
+			<size>0.465 0.85</size>
+			<fontSize>0.03</fontSize>
+			<alignment>right</alignment>
+			<horizontalMargin>0.015</horizontalMargin>
+		</textlist>
+				
+		<image name="gamelistbg2" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<pos>0.7735 0.048</pos>
+			<size>0.464 0.06</size>
+			<origin>0.5 0.5</origin>
+		</image>		
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<color>000000</color>
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>000000</color>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>000000</color>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</datetime>
+				
+		<text name="md_lbl_rating">
+			<pos>0.34 0.038</pos>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.34 0.068</pos>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<pos>0.34 0.098</pos>
+		</text>
+		
+		<text name="md_lbl_players">
+			<pos>0.34 0.128</pos>
+		</text>		
+		
+		<text name="md_lbl_developer">
+			<pos>0.34 0.158</pos>
+		</text>		
+	
+		<text name="md_lbl_publisher">
+			<pos>0.34 0.188</pos>
+		</text>	
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.34 0.218</pos>	
+		</text>		
+	
+		<text name="md_lbl_playcount">
+			<pos>0.34 0.248</pos>	
+		</text>	
+		
+		<text name="md_lbl_gametime">
+			<pos>0.34 0.278</pos>	
+		</text>			
+		
+		<rating name="md_rating">
+			<pos>0.418 0.05</pos>
+			<size>0.12 0.024</size>
+		</rating>
+		
+		<datetime name="md_releasedate">
+			<pos>0.418 0.08</pos>
+			<size>0.12 0.024</size>
+		</datetime>
+		
+		<text name="md_genre">
+			<pos>0.418 0.11</pos>
+			<size>0.12 0.024</size>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.418 0.14</pos>
+			<size>0.12 0.024</size>
+		</text>		
+		
+		<text name="md_developer">
+			<pos>0.418 0.17</pos>
+			<size>0.12 0.024</size>
+		</text>		
+	
+		<text name="md_publisher">
+			<pos>0.418 0.2</pos>
+			<size>0.12 0.024</size>
+		</text>	
+		
+		<datetime name="md_lastplayed">
+			<pos>0.418 0.23</pos>	
+			<size>0.12 0.024</size>
+		</datetime>		
+	
+		<text name="md_playcount">
+			<pos>0.418 0.26</pos>
+			<size>0.12 0.024</size>
+		</text>	
+		
+		<text name="md_gametime">
+			<pos>0.418 0.29</pos>
+			<size>0.12 0.024</size>
+		</text>		
+	
+		<image name="md_image">
+			<pos>0.2725 0.582</pos>
+			<maxSize>0.185 0.245</maxSize>
+			<origin>0.5 0.5</origin>
+			<verticalAlignment>top</verticalAlignment>
+		</image>
+		
+		<image name="imageSC_bg" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<color>000000</color>
+			<pos>0.2725 0.4</pos>
+			<size>0.115 0.05</size>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="imageSC_bgtext" extra="true">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>FFFFFF</color>
+			<text>SCREENSHOT</text>
+			<pos>0.2725 0.4</pos>
+			<origin>0.5 0.5</origin>
+		</text>				
+		
+		<image name="md_boxart">
+			<pos>0.4555 0.582</pos>
+			<maxSize>0.16 0.245</maxSize>
+			<origin>0.5 0.5</origin>
+			<verticalAlignment>top</verticalAlignment>
+		</image>		
+		
+		<image name="boxart_bg" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<color>000000</color>
+			<pos>0.4555 0.4</pos>
+			<size>0.08 0.05</size>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="boxart_bgtext" extra="true">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>FFFFFF</color>
+			<text>BOXART</text>
+			<pos>0.4555 0.4</pos>
+			<origin>0.5 0.5</origin>
+		</text>		
+		
+		<image name="md_marquee">
+			<pos>0.09 0.582</pos>
+			<maxSize>0.16 0.245</maxSize>
+			<origin>0.5 0.5</origin>
+			<verticalAlignment>top</verticalAlignment>
+		</image>
+		
+		<image name="marquee_bg" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<color>000000</color>
+			<pos>0.09 0.4</pos>
+			<size>0.065 0.05</size>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="marquee_bgtext" extra="true">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>FFFFFF</color>
+			<text>LOGO</text>
+			<pos>0.09 0.4</pos>
+			<origin>0.5 0.5</origin>
+		</text>
+		
+		<text name="md_name">
+			<fontPath>./_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.013 0.038</pos>
+			<size>0.28 0.250</size>
+			<color>000000</color>
+			<alignment>left</alignment>
+			<verticalAlignment>top</verticalAlignment>
+			<lineSpacing>0.89</lineSpacing>
+		</text>
+		
+		<text name="md_description">
+			<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+			<fontSize>0.013</fontSize>
+			<pos>0.2725 0.84</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.515 0.2</size>
+			<color>000000</color>
+			<alignment>left</alignment>
+			<verticalAlignment>top</verticalAlignment>
+			<lineSpacing>0.89</lineSpacing>	
+		</text>
+		
+	</view>		
+		
+	<view name="grid">
+		
+		<imagegrid name="gamegrid">
+			<pos>0.025 0.115</pos>
+			<size>0.525 0.8</size>
+			<margin>0.015 0.015</margin>
+			<autoLayout>3 6</autoLayout>
+			<autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
+			<imageSource>image</imageSource>
+			<animateSelection>true</animateSelection>
+			<scrollLoop>false</scrollLoop>
+			<color>FFFFFF88</color>
+			<centerSelection>false</centerSelection>
+			<scrollDirection>horizontal</scrollDirection>
+			<scrollLoop>true</scrollLoop>
+		</imagegrid>
+		
+		<image name="gridgamelistbg2" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<pos>0.7935 0.048</pos>
+			<size>0.44 0.06</size>
+			<origin>0.5 0.5</origin>
+		</image>			
+		
+		<image name="gridtile.marquee">
+			<maxSize>0.8</maxSize>
+		</image>
+		
+		<gridtile name="default">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<imageSizeMode>maxSize</imageSizeMode>
+			<padding>0 0</padding>
+			<selectionMode>image</selectionMode>
+			<imageSizeMode>minSize</imageSizeMode>
+			<imageColor>FFFFFFBB</imageColor>
+		</gridtile>	
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</datetime>
+		
+		<text name="md_lbl_rating">
+			<pos>0.76 0.314</pos>
+		</text>		
+		
+		<rating name="md_rating">
+			<pos>0.84 0.326</pos>
+			<size>0.12 0.024</size>
+		</rating>		
+		
+		<text name="md_lbl_players">
+			<pos>0.76 0.344</pos>
+		</text>
+		
+		<text name="md_players">
+			<pos>0.84 0.357</pos>
+			<size>0.15 0.024</size>
+		</text>		
+		
+		<text name="md_lbl_genre">
+			<pos>0.76 0.374</pos>
+		</text>
+
+		<text name="md_genre">
+			<pos>0.84 0.387</pos>
+			<size>0.15 0.024</size>
+		</text>		
+		
+		<text name="md_lbl_releasedate">
+			<pos>0.76 0.404</pos>
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.84 0.417</pos>
+			<size>0.15 0.024</size>
+		</datetime>
+		
+		<text name="md_lbl_developer">
+			<pos>0.76 0.434</pos>
+		</text>	
+		
+		<text name="md_developer">
+			<pos>0.84 0.447</pos>
+			<size>0.15 0.024</size>
+		</text>	
+		
+		<text name="md_lbl_publisher">
+			<pos>0.76 0.464</pos>
+		</text>	
+		
+		<text name="md_publisher">
+			<pos>0.84 0.477</pos>
+			<size>0.15 0.024</size>
+		</text>			
+		
+		<text name="md_lbl_lastplayed">
+			<pos>0.76 0.494</pos>
+		</text>	
+		
+		<text name="md_lastplayed">
+			<pos>0.84 0.507</pos>
+			<size>0.15 0.024</size>
+		</text>
+		
+		<text name="md_lbl_playcount">
+			<pos>0.76 0.524</pos>
+		</text>	
+		
+		<text name="md_playcount">
+			<pos>0.84 0.537</pos>
+			<size>0.15 0.024</size>
+		</text>
+		
+		<text name="md_lbl_gametime">
+			<pos>0.76 0.554</pos>
+		</text>	
+		
+		<text name="md_gametime">
+			<pos>0.84 0.567</pos>
+			<size>0.15 0.024</size>
+		</text>				
+		
+		<text name="md_name">
+			<fontPath>./_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.6 0.1</pos>
+			<size>0.36 0.250</size>
+			<color>000000</color>
+			<alignment>left</alignment>
+			<verticalAlignment>top</verticalAlignment>
+			<lineSpacing>0.89</lineSpacing>
+		</text>
+		
+		<text name="md_description">
+			<fontPath>./_inc/fonts/FiraSans-Light.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<pos>0.6 0.615</pos>
+			<size>0.38 0.312</size>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<verticalAlignment>top</verticalAlignment>
+			<lineSpacing>0.89</lineSpacing>	
+		</text>
+	
+		<image name="md_boxart">
+			<pos>0.67 0.458</pos>
+			<maxSize>0.16 0.255</maxSize>
+			<verticalAlignment>top</verticalAlignment>
+		</image>	
+	
+	</view>
+		
+	<view name="basic">	
+	
+		<textlist name="gamelist">
+			<selectorColor>FFFFFF</selectorColor>
+			<selectedColor>000000</selectedColor>
+			<primaryColor>FFFFFF</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<pos>0.5 0.53</pos>
+			<origin>0.5 0.5</origin>
+			<size>1 0.84</size>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+			<horizontalMargin>0.015</horizontalMargin>
+		</textlist>		
+		
+		<image name="basicgamelisttopbar" extra="true">
+			<path>./_inc/images/whitebg.jpg</path>
+			<pos>0 0</pos>
+			<size>1 0.1</size>
+		</image>		
+		
+	</view>	
+	
+	<customView name="Video Grid" inherits="grid">
+		
+		<video name="md_video" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>0.5745 0.96</size>
+			<scale>1.5</scale>
+			<delay>0.5</delay>
+		</video>	
+		
+	</customView>	
+	
+	<customView name="Video Detailed" inherits="detailed">
+	
+		<image name="md_image">
+			<visible>false</visible>
+		</image>	
+		
+		<video name="md_video" extra="true">
+			<pos>0.2725 0.582</pos>
+			<maxSize>0.185 0.245</maxSize>
+			<origin>0.5 0.5</origin>
+			<verticalAlignment>top</verticalAlignment>
+			<delay>0</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+		</video>	
+		
+		<image name="imageSC_bg" extra="true">
+			<size>0.065 0.05</size>
+		</image>
+		
+		<text name="imageSC_bgtext" extra="true">
+			<text>VIDEO*</text>
+		</text>						
+
+		<text name="imageSC_bgtextasterisk" extra="true">
+			<text>*Screenshot will be displayed if game is missing video metadata.</text>
+			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<pos>0.2725 0.72</pos>
+			<fontSize>0.012</fontSize>
+			<origin>0.5 0.5</origin>
+		</text>				
+		
+	</customView>		
+			
+	<subset name="darkmode" displayName="${subset.darkmode}">
+		<include name="Off"/>
+		<include name="On">./darkmode.xml</include>
+	</subset>		
+			
+</theme>
