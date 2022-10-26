@@ -9,10 +9,10 @@ English is the only language supported
 
 <h3>The following "Automatic Game Collections" and "Grouped Systems" have artwork and can be enabled:</h3> <br>
 <b>Grouped Systems:</b> AMIGA, MEGA DRIVE, MSX, NES, PORTS <br>
-<b>Automatic Game Collections:</b> LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER PLAYED, RETROACHIEVEMENTS <br>
+<b>Automatic Game Collections:</b> LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER PLAYED, RETROACHIEVEMENTS, ARCADE, VERTICAL ARCADE, LIGHTGUN GAMES <br>
 
 <h3>The following "Systems" have artwork and can be displayed:</h3> <br>
-3do, 3ds, adam, advision, amiga500, amiga1200, amigacd32, amigacdtv, amstradcpc, apfm1000, apple2, apple2gs, atari2600, atari5200, atari7800, atarijaguar, atarilynx, c64, c128, cavestory, cdi, colecovision, dreamcast, fds, gameandwatch, gb, gba, gbc, gc, intellivision, mame, mastersystem, megadrive, msx1, msx2, mugen, n64, n64dd, naomi, nds, nes, odyssey2, openbor, pc, pcengine, ps2, ps3, psp, psx, saturn, scummvm, sega32x, segacd, snes, wii, wiiu, windows, wonderswancolor, xbox, zxspectrum
+3do, 3ds, adam, advision, amiga500, amiga1200, amigacd32, amigacdtv, amstradcpc, apfm1000, apple2, apple2gs, atari2600, atari5200, atari7800, atarijaguar, atarilynx, c64, c128, cavestory, cdi, colecovision, daphne, dreamcast, fds, gameandwatch, gb, gb2players, gba, gbc, gbc2players, gc, gp32, intellivision, mame, mastersystem, megadrive, msx1, msx2, mugen, n64, n64dd, naomi, nds, nes, ngp, npgc, odyssey2, openbor, pc, pcengine, ps2, ps3, psp, psx, saturn, scummvm, sega32x, segacd, snes, vsmile, wii, wiiu, windows, wonderswancolor, xbox, zxspectrum
 <br>
 <br>
 
