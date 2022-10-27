@@ -1,6 +1,6 @@
 <!--
 theme name:     Sheezie 2 Clean
-version:        1.1
+version:        1.0
 author:         Sheezie (newFUNKYmode)
 email:          
 website:        
@@ -13,9 +13,6 @@ Most logos created by Dan Patrick and can be found here: https://archive.org/det
 
 This is my first time doing anything like this so some code may be redundant!
 
-The following "Automatic Game Collections" and "Grouped Systems" have artwork and can be enabled:
-Grouped Systems: AMIGA, MEGA DRIVE, MSX, PORTS
-Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER PLAYED, RETROACHIEVEMENTS
 -->
 
 <theme>
@@ -34,17 +31,23 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<amstradColor>28b872</amstradColor>
 		<apfmColor>175067</apfmColor>
 		<apple2Color>943f95</apple2Color>
+		<arcadiaColor>9ae456</arcadiaColor>
+		<astrocadeColor>eec21a</astrocadeColor>
 		<atari2600Color>e4202f</atari2600Color>
 		<atari5200Color>6187e5</atari5200Color>
 		<atari7800Color>f17a4f</atari7800Color>
+		<atomisColor>b9dbb4</atomisColor>
+		<atomisColorB>008039</atomisColorB>
 		<c64Color>002684</c64Color>
 		<c128Color>f20029</c128Color>
 		<caveColor>4f9d6b</caveColor>
+		<cavearcadeColor>098a44</cavearcadeColor>
 		<cdiColor>e50300</cdiColor>
 		<coleColor>489e6e</coleColor>
 		<coleColorB>c8b628</coleColorB>
 		<dosColor>9b2685</dosColor>
 		<fdsColor>ffc600</fdsColor>		
+		<gaelcoColor>2f9a00</gaelcoColor>
 		<gamewatchColor>3e3e3e</gamewatchColor>
 		<gbColor>b1aeab</gbColor>
 		<gbaColor>574087</gbaColor>
@@ -52,6 +55,8 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<intvisionColor>0035a0</intvisionColor>
 		<jagColor>ffd100</jagColor>
 		<lynxColor>ffcc00</lynxColor>
+		<model3Color>f7e819</model3Color>
+		<model3ColorB>f4194a</model3ColorB>
 		<msx1Color>ff0000</msx1Color>
 		<msx2Color>121212</msx2Color>
 		<nesColor>cc2c2c</nesColor>
@@ -81,6 +86,7 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<ps3Color>080808</ps3Color>
 		<ps3ColorB>464646</ps3ColorB>
 		<psxColor>e9bb20</psxColor>
+		<pv1000Color>2a4e78</pv1000Color>
 		<wiiColor>a19fa3</wiiColor>
 		<wiiuColor>17b3e8</wiiuColor>
 		<wswancColor>cf0017</wswancColor>		
@@ -92,6 +98,8 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<segacdColor>30a4ee</segacdColor>
 		<saturnColor>001c94</saturnColor>
 		<saturnColorB>79b3ff</saturnColorB>
+		<scvColor>9a509f</scvColor>
+		<triforceColor>6b4284</triforceColor>
 		<windowsColor>0079d7</windowsColor>
 		<zxspectrumColor>00a7e1</zxspectrumColor>
 		
