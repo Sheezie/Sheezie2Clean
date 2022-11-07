@@ -1,0 +1,99 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+	
+	
+	<view name="system">
+	
+		<text name="systemName" extra="true">
+			<text>NEC PC-9800</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.116</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>				
+		
+		<text name="systemYear" extra="true">
+			<text>Nippon Electric (NEC), 1982</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>						
+		
+		<text name="systemtxt" extra="true">
+			<text>The PC-9800 series, commonly shortened to PC-98 or 98, is a lineup of Japanese 16-bit and 32-bit personal computers manufactured by NEC from 1982 to 2000. The platform established NEC's dominance in the Japanese personal computer market, and, by 1999, more than 18 million units had been sold.[4] While NEC did not market these specific machines in the West, it sold the NEC APC III, which had similar hardware as early PC-98 models.</text>
+			<pos>0.03 0.39</pos>
+			<size>0.42 0.3</size>			
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>0.89</lineSpacing>
+			<alignment>left</alignment>
+		</text>		
+		
+	</view>			
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${msx1Color}</color>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./../_inc/images/syscolorbar.png</path>
+			<color>${msx1Color}</color>
+			<pos>0.32 0.04</pos>
+		</image>		
+
+	</view>
+
+	<view name="grid">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${msx1Color}</color>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+				
+		
+	</view>
+
+	<view name="basic">
+	
+		<image name="basicgamelistbg" extra="true">
+			<color>${msx1Color}</color>
+		</image>		
+		
+	</view>
+
+
+</theme>

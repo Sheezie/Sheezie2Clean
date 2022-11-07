@@ -1,0 +1,98 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+	
+	
+	<view name="system">
+	
+		<text name="systemName" extra="true">
+			<text>Neo Geo CD</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.116</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>				
+		
+		<text name="systemYear" extra="true">
+			<text>SNK, 1994</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>						
+		
+		<text name="systemtxt" extra="true">
+			<text>The Neo Geo CD is the second home video game console of SNK Corporation's Neo Geo family, released on September 9, 1994, four years after its cartridge-based equivalent. The system can also play Audio CDs. All three versions of the system have no region-lock. The Neo Geo CD was launched bundled with a control pad instead of a joystick like the AES version. However, the original AES joystick can be used with all three Neo Geo CD models. As of March 1997, there had been 570,000 Neo Geo CD units sold worldwide.</text>
+			<pos>0.03 0.39</pos>
+			<size>0.42 0.3</size>			
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>0.89</lineSpacing>
+			<alignment>left</alignment>
+		</text>		
+		
+	</view>			
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${neogeoColor}</color>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./../_inc/images/syscolorbar.png</path>
+			<color>${neogeoColor}</color>
+			<pos>0.32 0.04</pos>
+		</image>		
+
+	</view>
+
+	<view name="grid">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${neogeoColor}</color>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+	</view>
+
+	<view name="basic">
+	
+		<image name="basicgamelistbg" extra="true">
+			<color>${neogeoColor}</color>
+		</image>		
+		
+	</view>
+
+
+</theme>

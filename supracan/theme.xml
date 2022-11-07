@@ -1,0 +1,130 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+	
+
+	<view name="system">
+	
+		<text name="systemName" extra="true">
+			<text>Super A'Can</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.116</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>				
+		
+		<text name="systemYear" extra="true">
+			<text>Funtech, 1995</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>						
+		
+		<text name="systemtxt" extra="true">
+			<text>The Super A'can is a home video game console released exclusively in Taiwan in 1995 by Funtech/Dunhuang Technology. It is based around the Motorola 68000 microchip, which is also used in the Sega Genesis and Neo Geo. Twelve games have been confirmed to exist for the system. The Super A'Can failed because its initial costs were too high for customers. It had no chance to compete with fifth generation video game consoles, such as the PlayStation, the Nintendo 64 and the Sega Saturn, all of which were more powerful and offered 3D graphics. </text>
+			<pos>0.03 0.39</pos>
+			<size>0.42 0.3</size>			
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./../_inc/fonts/FiraSans-Regular.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>0.89</lineSpacing>
+			<alignment>left</alignment>
+		</text>		
+		
+	</view>			
+
+	<view name="detailed">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${supracanColor}</color>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./../_inc/images/syscolorbar.png</path>
+			<color>${supracanColor}</color>
+			<pos>0.32 0.04</pos>
+		</image>		
+		
+		<textlist name="gamelist">
+			<primaryColor>FFFFFF</primaryColor>
+		</textlist>				
+
+	</view>
+
+	<view name="grid">
+	
+		<image name="logo">
+			<path>./logo2.png</path>
+			<pos>0.92 0.048</pos>
+			<maxSize>0.1 0.045</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+		
+		<image name="gamelistbg" extra="true">
+			<path>./../_inc/images/whitebgside.png</path>
+			<color>${supracanColor}</color>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>ffffff</color>
+		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>ffffff</color>
+		</datetime>		
+		
+		<rating name="md_rating">
+			<color>ffffff</color>
+		</rating>			
+		
+		<text name="md_name">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_description">
+			<color>ffffff</color>
+		</text>		
+		
+	</view>
+
+	<view name="basic">
+	
+		<image name="basicgamelistbg" extra="true">
+			<color>${supracanColor}</color>
+		</image>		
+		
+		<textlist name="gamelist">
+			<primaryColor>FFFFFF</primaryColor>
+		</textlist>
+		
+	</view>
+
+
+</theme>
