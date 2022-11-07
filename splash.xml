@@ -9,7 +9,7 @@
 		</splash>
 		
 		<image name="background">
-	    	<path>./_inc/images/splash.jpg</path>
+	    	<path>./_inc/images/splash2.jpg</path>
 		</image>
 				
 		<image name="progressbar">
