@@ -84,12 +84,9 @@
 			<zIndex>2</zIndex>
 		</image>
 		
-		<text name="md_name">
-			<color>ffffff</color>
-		</text>				
 		
 		<text name="md_description">
-			<color>ffffff</color>
+			<color>000000</color>
 		</text>				
 		
 	</view>
