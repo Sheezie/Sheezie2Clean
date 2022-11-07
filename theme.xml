@@ -78,9 +78,11 @@ This is my first time doing anything like this so some code may be redundant!
 		<mameColor>012b56</mameColor>
 		<mameColorB>5db9ea</mameColorB>
 		<mastersystemColor>0061a8</mastersystemColor>
+		<megaduckColor>3cc7c7</megaduckColor>
 		<neogeoColor>828056</neogeoColor>
 		<openborColor>fe1201</openborColor>
 		<openborColorB>00a7e4</openborColorB>
+		<pcfxColor>ff3abd</pcfxColor>
 		<ps2Color>2b4b96</ps2Color>
 		<ps2ColorB>02b1cf</ps2ColorB>
 		<ps3Color>080808</ps3Color>
@@ -99,6 +101,10 @@ This is my first time doing anything like this so some code may be redundant!
 		<saturnColor>001c94</saturnColor>
 		<saturnColorB>79b3ff</saturnColorB>
 		<scvColor>9a509f</scvColor>
+		<supergrafxColor>65b7ff</supergrafxColor>
+		<supracanColor>32893b</supracanColor>
+		<svisionColor>1382d4</svisionColor>
+		<svisionColorB>55e3fe</svisionColorB>
 		<triforceColor>6b4284</triforceColor>
 		<windowsColor>0079d7</windowsColor>
 		<zxspectrumColor>00a7e1</zxspectrumColor>
