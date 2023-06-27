@@ -34,17 +34,23 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<amstradColor>28b872</amstradColor>
 		<apfmColor>175067</apfmColor>
 		<apple2Color>943f95</apple2Color>
+		<arcadiaColor>9ae456</arcadiaColor>
+		<astrocadeColor>eec21a</astrocadeColor>
 		<atari2600Color>e4202f</atari2600Color>
 		<atari5200Color>6187e5</atari5200Color>
 		<atari7800Color>f17a4f</atari7800Color>
+		<atomisColor>b9dbb4</atomisColor>
+		<atomisColorB>008039</atomisColorB>
 		<c64Color>002684</c64Color>
 		<c128Color>f20029</c128Color>
+		<cavearcadeColor>098a44</cavearcadeColor>
 		<caveColor>4f9d6b</caveColor>
 		<cdiColor>e50300</cdiColor>
 		<coleColor>489e6e</coleColor>
 		<coleColorB>c8b628</coleColorB>
 		<dosColor>9b2685</dosColor>
 		<fdsColor>ffc600</fdsColor>		
+		<gaelcoColor>2f9a00</gaelcoColor>
 		<gamewatchColor>3e3e3e</gamewatchColor>
 		<gbColor>b1aeab</gbColor>
 		<gbaColor>574087</gbaColor>
@@ -56,16 +62,24 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<msx2Color>121212</msx2Color>
 		<nesColor>cc2c2c</nesColor>
 		<megadriveColor>1f2a60</megadriveColor>
+		<megaduckColor>3cc7c7</megaduckColor>
+		<model3Color>f7e819</model3Color>
+		<model3ColorB>f4194a</model3ColorB>
 		<mugenColor>004c7d</mugenColor>
 		<mugenColorB>4aa7e2</mugenColorB>
 		<n64Color>0017aa</n64Color>
 		<naomiColor>f05100</naomiColor>
+		<neogeoColor>828056</neogeoColor>
+		<openborColor>fe1201</openborColor>
+		<openborColorB>00a7e4</openborColorB>
 		<odyss2Color>fe0000</odyss2Color>
 		<odyss2ColorB>feaf00</odyss2ColorB>
 		<snesColor>4b287f</snesColor>
 		<ndsColor>929497</ndsColor>
 		<n3dsColor>d12228</n3dsColor>
 		<pcengineColor>ff6427</pcengineColor>
+		<pcfxColor>ff3abd</pcfxColor>
+		<pv1000Color>2a4e78</pv1000Color>
 		<dcColor>f6551f</dcColor>
 		<gamecubeColor>5b6297</gamecubeColor>
 		<gamecubeColorB>8b94c2</gamecubeColorB>
@@ -93,6 +107,13 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<segacdColor>30a4ee</segacdColor>
 		<saturnColor>001c94</saturnColor>
 		<saturnColorB>79b3ff</saturnColorB>
+		<supracanColor>32893b</supracanColor>
+		<scvColor>9a509f</scvColor>
+		<supergrafxColor>65b7ff</supergrafxColor>
+		<svisionColor>1382d4</svisionColor>
+		<svisionColorB>55e3fe</svisionColorB>
+		<switchColor>e60012</switchColor>
+		<triforceColor>6b4284</triforceColor>
 		<windowsColor>0079d7</windowsColor>
 		<zxspectrumColor>00a7e1</zxspectrumColor>
 		
