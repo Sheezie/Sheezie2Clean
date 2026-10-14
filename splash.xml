@@ -21,7 +21,7 @@
 
 		<text name="label">
 			<fontPath>./_inc/fonts/FiraSans-Regular.ttf</fontPath>
-			<color>000000</color>
+			<color>FFFFFF</color>
 			<fontSize>0.024</fontSize>
 		</text>
 		

@@ -117,6 +117,11 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		<windowsColor>0079d7</windowsColor>
 		<zxspectrumColor>00a7e1</zxspectrumColor>
 		
+<!--Default Color (systems without their own folder)-->
+
+		<sysColor>555555</sysColor>
+		<sysColorDark>AAAAAA</sysColorDark>
+		
 <!--Theme Config-->			
 
 		<subset.darkmode>Dark Mode</subset.darkmode>
@@ -752,7 +757,6 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>0.5745 0.96</size>
-			<scale>1.5</scale>
 			<delay>0.5</delay>
 		</video>	
 		
@@ -791,6 +795,150 @@ Automatic Game Collections: LAST PLAYED, FAVORITES, 2 PLAYERS, 4 PLAYERS, NEVER 
 		
 	</customView>		
 			
+<!--Systems without their own folder: ES loads this root theme.xml directly for them, so ${themePath} is the theme folder itself (the only one with _inc next to it). These views only apply there.-->
+
+	<view name="system" if='exists(${themePath} + "/_inc/images/whitebgside.png")'>
+
+		<image name="background" extra="true">
+			<path>./_inc/images/whitebgside.png</path>
+			<color>${sysColor}</color>
+		</image>
+
+		<text name="systemName" extra="true">
+			<text>{system:fullName}</text>
+			<pos>0.03 0.025</pos>
+			<size>0.42 0.3</size>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./_inc/fonts/FiraSans-Black.ttf</fontPath>
+			<fontSize>0.083</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>
+
+		<text name="systemYear" extra="true">
+			<text>{system:manufacturer}</text>
+			<pos>0.03 0.33</pos>
+			<backgroundColor>22222200</backgroundColor>
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<lineSpacing>0.69</lineSpacing>
+			<alignment>left</alignment>
+		</text>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>000000</color>
+		</text>
+
+	</view>
+
+	<view name="basic" if='exists(${themePath} + "/_inc/images/whitebgside.png")'>
+
+		<image name="basicgamelistbg" extra="true">
+			<color>${sysColor}</color>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>000000</color>
+			<pos>0.5 0.05</pos>
+			<size>0.9 0.0425</size>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+		</text>
+
+	</view>
+
+	<view name="detailed" if='exists(${themePath} + "/_inc/images/whitebgside.png")'>
+
+		<image name="gamelistbg" extra="true">
+			<path>./_inc/images/whitebgside.png</path>
+			<color>${sysColor}</color>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<path>./_inc/images/syscolorbar.png</path>
+			<color>${sysColor}</color>
+			<pos>0.32 0.04</pos>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>000000</color>
+			<pos>0.92 0.048</pos>
+			<size>0.15 0.045</size>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+		</text>
+
+	</view>
+
+	<view name="grid" if='exists(${themePath} + "/_inc/images/whitebgside.png")'>
+
+		<image name="gamelistbg" extra="true">
+			<path>./_inc/images/whitebgside.png</path>
+			<color>${sysColor}</color>
+			<pos>0.53 0.5</pos>
+			<size>0.97 1</size>
+			<origin>0.5 0.5</origin>
+			<zIndex>2</zIndex>
+		</image>
+
+		<text name="logoText">
+			<fontPath>./_inc/fonts/FiraSans-Bold.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<color>000000</color>
+			<pos>0.92 0.048</pos>
+			<size>0.15 0.045</size>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+		</text>
+
+	</view>
+
+	<view name="basic" if='exists(${themePath} + "/_inc/images/whitebgside.png")' ifSubset="darkmode:On">
+
+		<image name="basicgamelistbg" extra="true">
+			<color>${sysColorDark}</color>
+		</image>
+
+	</view>
+
+	<view name="detailed" if='exists(${themePath} + "/_inc/images/whitebgside.png")' ifSubset="darkmode:On">
+
+		<image name="gamelistbg" extra="true">
+			<color>${sysColorDark}</color>
+		</image>
+
+		<image name="syscolorbar" extra="true">
+			<color>${sysColorDark}</color>
+		</image>
+
+	</view>
+
+	<view name="grid" if='exists(${themePath} + "/_inc/images/whitebgside.png")' ifSubset="darkmode:On">
+
+		<image name="gamelistbg" extra="true">
+			<color>${sysColorDark}</color>
+		</image>
+
+	</view>
+
+	<view name="system, basic, detailed, grid" if='exists(${themePath} + "/_inc/images/whitebgside.png")' ifSubset="darkmode:On">
+
+		<text name="logoText">
+			<color>ffffff</color>
+		</text>
+
+	</view>
+
 	<subset name="darkmode" displayName="${subset.darkmode}">
 		<include name="Off"/>
 		<include name="On">./darkmode.xml</include>

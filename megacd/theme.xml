@@ -1,0 +1,56 @@
+<theme>
+
+    <formatVersion>7</formatVersion>
+    <include>./../segacd/theme.xml</include>
+
+<!--Batocera 43 renamed segacd to megacd: this reuses the Sega CD artwork-->
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./../segacd/logo.png</path>
+		</image>
+
+		<image name="logo2">
+			<path>./../segacd/logo2.png</path>
+		</image>
+
+		<image name="background" extra="true">
+			<path>./../segacd/bg.png</path>
+		</image>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="logo">
+			<path>./../segacd/logo2.png</path>
+		</image>
+
+	</view>
+
+	<view name="system" ifSubset="darkmode:On">
+
+		<image name="logo">
+			<path>./../segacd/logo4.png</path>
+		</image>
+
+	</view>
+
+	<view name="basic" ifSubset="darkmode:On">
+
+		<image name="logo">
+			<path>./../segacd/logo3.png</path>
+		</image>
+
+	</view>
+
+	<view name="detailed, grid" ifSubset="darkmode:On">
+
+		<image name="logo3_white" extra="true">
+			<path>./../segacd/logo3.png</path>
+		</image>
+
+	</view>
+
+</theme>
